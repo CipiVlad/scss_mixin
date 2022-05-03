@@ -1,0 +1,66 @@
+h1,
+h2,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav ul,
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 255, 0.514);
+}
+nav ul li,
+footer ul li {
+  padding: 1rem;
+  list-style: none;
+}
+nav ul a,
+footer ul a {
+  text-decoration: none;
+}
+
+.section_images {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.section_images img {
+  height: 12rem;
+  width: 18rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.section_text,
+.section_images,
+.aside {
+  margin: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header,
+.section_text > h3 {
+  text-align: center;
+}
+
+.aside .first_aside {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_aside,
+.second_aside,
+.third_aside,
+.fourth_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.514);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
